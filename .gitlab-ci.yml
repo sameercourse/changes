@@ -5,6 +5,7 @@ step1:
 
   only:
    changes:
+      - "folder/file1"
  
 
 
@@ -14,6 +15,7 @@ step2:
     - env
   only:
    changes:
+      - "folder/file2"
 
 
 
