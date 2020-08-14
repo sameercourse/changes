@@ -1,0 +1,23 @@
+step1:
+  script: 
+    - echo "hi"
+    - env
+
+  only:
+   changes:
+ 
+
+
+step2:
+  script: 
+    - echo "hi"
+    - env
+  only:
+   changes:
+
+
+
+
+Test_job: 
+   script: 
+      - echo "hi there"
